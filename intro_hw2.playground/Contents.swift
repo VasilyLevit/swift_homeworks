@@ -24,7 +24,7 @@ var calzone = Pizza.calzone
 var napoletana = Pizza.napoletana
 var siciliana: Pizza = .siciliana
 
-/* Добавить возможность получения названия пиццы через rawValue*/
+/* Добавить возможность получения названия пиццы через rawValue */
 
 func getName(pizza: Pizza) -> String {
     pizza.rawValue
